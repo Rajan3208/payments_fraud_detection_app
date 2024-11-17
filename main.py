@@ -91,7 +91,7 @@ with st.form("transaction_form"):
     col1, col2 = st.columns(2)
     
     with col1:
-        username = st.text_input('User Name', value='John Doe')
+        username = st.text_input('User Name', value='Rajan Singh')
         transaction_date = st.date_input('Transaction Date', value=datetime.now())
         transaction_amount = st.number_input('Transaction Amount', min_value=1.0, max_value=1000.0, value=500.0)
     
